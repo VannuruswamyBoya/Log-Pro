@@ -1,0 +1,89 @@
+# ==========================================
+# Log Pro - Git Ignore Configuration
+# ==========================================
+
+# Secrets & Environment Files (Never commit credentials)
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Python / Bytecode / Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Django Internal Artifacts
+*.sqlite3
+db.sqlite3
+backend/staticfiles/
+
+# User Uploaded Documents (Local Media Storage)
+backend/media/submissions/*
+!backend/media/submissions/.gitkeep
+
+# Node.js & Vite Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+scratch/
+.system_generated/
