@@ -8,6 +8,12 @@
 !.env.example
 backend/.env
 
+# Documentation Files (Private - Not shared on GitHub)
+README.md
+frontend/README.md
+walkthrough.md
+
+
 # Python / Bytecode / Caches
 __pycache__/
 *.py[cod]
